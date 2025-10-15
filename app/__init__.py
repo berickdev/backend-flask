@@ -21,4 +21,6 @@ def create_app(config_class=Config):
     def index():
         return f'<h1>Pagina Principal da Fabrica de App'
     
+    from .models import models
+
     return app
