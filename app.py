@@ -1,4 +1,5 @@
-from app import create_app
+from app import create_app, db
+from app.models.models import Task
 
 app = create_app()
 
